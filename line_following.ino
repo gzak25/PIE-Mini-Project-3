@@ -5,10 +5,6 @@
 Adafruit_MotorShield AFMS = Adafruit_MotorShield();
 Adafruit_DCMotor *myMotor1 = AFMS.getMotor(1);
 Adafruit_DCMotor *myMotor2 = AFMS.getMotor(2);
-//R_sense=30k
-//tape >110
-//floor <110
-int critical=120;
 
 const int l_sensor =A0;
 const int r_sensor =A1;
